@@ -15,9 +15,9 @@ function App(){
 
   async function handleAddRepository() {
     const response = await api.post('repositories',{
-      title: 'help me2',
-      url:'help',
-      techs: ['java','sql']
+      title: 'video-maker',
+      url:'https://github.com/viniciusflores/video-maker',
+      techs: ['JS','googleApis', 'watsonIBM']
     });
 
     const repository = response.data;
